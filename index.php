@@ -13,7 +13,8 @@
 	<?php
 	include 'includes/menu.php';
 	?>
-
-	<div>the purpose of this project it to gather much information about IT WORLD</div>
+	<div class="container">
+		<div class="jumbotron my-3">the purpose of this project it to gather much information about IT WORLD</div>
+	</div>	
 </body>
 </html>
