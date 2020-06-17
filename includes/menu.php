@@ -9,6 +9,10 @@
 		<li class="nav-item">
 		  <a class="nav-link" href="position_new.php">New Position</a>
 		</li>
+		<li class="nav-item">
+		  <a class="nav-link" href="position_all.php">All Positions</a>
+		</li>
+		
 	</ul>
 
 </nav> 
