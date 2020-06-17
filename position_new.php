@@ -33,6 +33,9 @@ require 'config/connection.php';
 		</form>
 
 		<?php
+		// need to read about this, but for now it does the job
+		error_reporting(E_ALL ^ E_WARNING); 
+		
 		if ($_SERVER["REQUEST_METHOD"] == "POST") {
 			echo "<hr>";
 			echo "Form was submitted";
@@ -52,9 +55,22 @@ require 'config/connection.php';
 			oci_bind_by_name($stid, ':POSITION', $position);
 			//Returns TRUE on success or FALSE on failure. 
 			$res = oci_execute($stid);
+			$error_msg = "";
+			if (false === $res) {
+				$e = oci_error($stid);
+				//trigger_error(htmlentities($e['message']), E_USER_ERROR);
+				print htmlentities($e['message']);
+				print "\n<pre>\n";
+				print htmlentities($e['sqltext']);
+				printf("\n%".($e['offset']+1)."s", "^");
+				print  "\n</pre>\n";				
+			};
+			
 			oci_free_statement($stid);			
 		}
 		?>		
+		
+		</div>		
 		
 	</div>	
 	
@@ -62,5 +78,6 @@ require 'config/connection.php';
 </html>
 
 <?php
+	
 oci_close($conn)
 ?>
