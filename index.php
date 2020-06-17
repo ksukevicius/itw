@@ -15,6 +15,13 @@
 	?>
 	<div class="container">
 		<div class="jumbotron my-3">the purpose of this project it to gather much information about IT WORLD</div>
+		
+		<div>
+			<img src="img/remember_remote.jpg" />
+			<hr>
+			forgot about git remote command, so to keep the memories, temporary here...
+		</div>
 	</div>	
+	
 </body>
 </html>
