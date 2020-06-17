@@ -14,7 +14,18 @@
 	include 'includes/menu.php';
 	?>
 	<div class="container">
+	
 		<div class="jumbotron my-3">the purpose of this project it to gather much information about IT WORLD</div>
+	
+		<a data-fancybox data-ratio="2" href="https://www.youtube.com/watch?v=e-5obm1G_FY" >
+			<p>Learning Functional Programming with JavaScript - Anjana Vakil - JSUnconf</p>
+		</a>
+	
+		<div class="border border-primary my-3 p-2">
+			<iframe width="420" height="315"
+			src="https://www.youtube.com/watch?v=e-5obm1G_FY">
+			</iframe> 
+		</div>		
 		
 		<div class="border border-primary my-3 p-2">
 			nice I've set up div with bootstrap classes that's looks quite ok for now for the temp posts in this page
