@@ -48,6 +48,7 @@ require 'config/connection.php';
 			<th>ID</th>
 			<th>Position Name</th>
 			<th>Insert date</th>
+			<th>Action</th>
 		</thead>
 		<tbody>
 		
@@ -57,6 +58,7 @@ require 'config/connection.php';
 			echo "<td>" . $row['ID'] ."</td>";
 			echo "<td>" . $row['POSITION'] ."</td>";
 			echo "<td>" . $row['INSERT_DATE'] ."</td>";
+			echo "<td><a href='position_del.php/?id=". $row['ID'] ."' class='btn btn-primary btn-sm'>Delete</a></td>";
 			echo "</tr>\n";
 		}
 		?>
@@ -71,5 +73,5 @@ require 'config/connection.php';
 
 <?php
 oci_free_statement($stid);
-oci_close($conn)
+oci_close($conn);
 ?>
