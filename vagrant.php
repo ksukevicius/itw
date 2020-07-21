@@ -37,6 +37,11 @@
 			<img src="img/vagrant_working.jpg" />			
 		</div>	
 		
+		<div class="border border-primary my-3 p-2">
+			today I continue to investigate vagrant, and I came to situation where I need vagrant plugin
+			<hr>
+			<img src="img/vagrant/vagrant_plugins.jpg" />
+		</div>
 		
 	</div>	
 	
