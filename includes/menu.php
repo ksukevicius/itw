@@ -21,7 +21,9 @@
 		<li class="nav-item">
 			<a class="nav-link" href="linux.php">Linux</a>
 		</li>		
-		
+		<li class="nav-item">
+			<a class="nav-link" href="laravel.php">Laravel</a>
+		</li>			
 	</ul>
 
 </nav> 

@@ -32,6 +32,9 @@
 		ngrok is a cross-platform application that enables developers to expose a local development server to the Internet with minimal effort. The software makes your locally-hosted web server appear to be hosted on a subdomain of ngrok.com, meaning that no public IP or domain name on the local machine is needed.
 		<hr />
 		<a href='https://ngrok.com/'> NGROK: Read more </a>
+		and there is a Laravel tutorial
+		https://www.youtube.com/watch?v=ImtZ5yENzgE
+		
 		</div>
 		
 	</div>	
