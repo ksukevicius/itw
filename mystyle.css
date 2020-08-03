@@ -4,6 +4,10 @@ h3, h4 {
 	border-bottom: 1px solid black;
 }
 
+.myimg {
+	margin: 50px 0;
+}
+
 .mynote {
 	color: navy;
 	margin: 10px;
@@ -11,8 +15,16 @@ h3, h4 {
 }
 
 .mypost {
+	padding: 5px;
 	background-color: #f4f6f6;
 	box-shadow: 5px 10px 10px grey;
+	border: 1px solid #dee2e6;
+	border-color: #007bff;
 	border-radius: 15px;
 	margin-top: 10px;
+	padding: .5rem;
+}
+
+.mykbd {
+	display: block;
 }
