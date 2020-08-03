@@ -17,33 +17,86 @@
 	
 	<div class="container">
 	
-		<div class="jumbotron">
-		<div class="row">
-			<div class="col-2">	
-				<img class="img-thumbnail mx-3" style="width:100px; float:left;" src="img\logos\laravel.png" />
-			</div>
-			<div class="col-10">
-				<h3>
-					As I have decided to learn Laravel, 
-					so I will keep my notes here ...
-				</h3>
-				<p>I know it's shit, make it better and show it ;)</p>
-			</div>
-		</div>			
+		<div class="jumbotron my-3">
+			<div class="row">
+				<div class="col-2">	
+					<img class="mx-3" style="width:100px; float:left;" src="img\logos\laravel.png" />
+				</div>
+				<div class="col-10">
+					<h3>
+						As I have decided to learn Laravel, 
+						so I will keep my notes here ...
+					</h3>
+					<p>I know it's shit, make it better and show it ;)</p>
+				</div>
+			</div>			
 		</div>
 	
-		<a href="https://laravel.com/">  Laravel </a>
+		<a href="https://laravel.com/" target="_blank">  Laravel </a>
 		<hr />
-		<p>There some links to video tutorials</p>
-		<a href="https://www.youtube.com/watch?v=ubfxi21M1vQ"> LARAVEL essentials you need to know in 45 minutes </a> <br />
-		<a href="https://www.youtube.com/watch?v=bkyjiXSx6WE"> Laravel Tutorial For Beginners | What Is Laravel? | Laravel Training Part - 1 | Edureka </a>
-		<hr />
-		<a href="https://youtu.be/ubfxi21M1vQ?t=1875">continue tomorrow</a>
+		
+		<div class="mypost">
+			<div class="row">
+				<div class="col-12 p-3">		
+					<h4>npm install</h4>
+					<p class="mynote"> 
+						looks like I have some problems running this command <kbd>npm install</kbd>
+						<!-- need to double check class selectors ... want to have margin for my image -->
+						<img src="img\laravel\npm_install.jpg" class = "myimg" width = "100%" />
+						This command installs a package, and any packages that it depends on.
+						<br>
+						Install the dependencies in the local node_modules folder.
+						<br>
+						By default, npm install will install all modules listed as dependencies in package.json.
+					</p>
+						
+				</div>
+			</div>
+		</div>		
+		
+		
+		<div class="mypost">
+			<h4>There some links to video tutorials</h4>
+			<div class="row">
+				<div class="col-6">
+					<iframe width="504" height="284" src="https://www.youtube.com/embed/ubfxi21M1vQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+				<div class="col-6">
+					
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-6">
+					<iframe width="504" height="284" src="https://www.youtube.com/embed/ImtZ5yENzgE" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<a href="https://youtu.be/ImtZ5yENzgE" target="_blank"> Open in new window</a>
+				</div>
+				<div class="col-6">
+					<iframe width="504" height="284" src="https://www.youtube.com/embed/bkyjiXSx6WE" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+		
 		<!--
 		<div class="embed-responsive embed-responsive-16by9">
 			<iframe width="420" height="315" class="embed-responsive-item" src="https://www.youtube.com/watch?v=ubfxi21M1vQ" allowfullscreen></iframe>
-		</div>
+		</div> 
 		-->
+
+		<div class="mypost">
+			<div class="row">
+				<div class="col-12 p-3">		
+					<h4>artisan</h4>
+					<p class="mynote"> 
+						the same as yesterday I got the same error today 
+					</p>
+						<pre>Could not open input file: artisan</pre>
+					<p class="mynote"> 
+						the problem is that I'm trying to use artisan while I'm not in projects folder
+					</p> 
+					<img src="img\laravel\php_artisan_error.jpg" class = "img-responsive" width = "100%" />
+				</div>
+			</div>
+		</div>
 
 		<div class="mypost border border-primary p-2">
 			<div class="row">
